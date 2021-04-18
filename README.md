@@ -10,15 +10,14 @@ https://static.lpnt.fr/images/2017/10/27/10978762lpw-10979123-article-jpg_466985
 1. Requirements & Deliverables
 2. Project Description
 3. Rules
-4. Workflow
-5. Organization
+4. Workflow & Organization
 
 
 ### 1. Requirements & Deliverables
 The mandatory requirements that this project needs to satisfy are:
 - Trello board  : https://trello.com/b/kMIED6Bi/message-encryption-project
 - Git repository : https://github.com/EstelleLili/MessageEncryption_DRAFTAP2021
-- Presentation available here : TODO
+- Presentation available here : https://docs.google.com/presentation/d/18fC5gDu0Gr6lpsKmB4qqNLi-IoOSxhqMZvhXy3ad6AI/edit?usp=sharing
 - Your code must include functions
 
 
@@ -33,12 +32,23 @@ First user will give some input, which will be encrypted.
 In order to decrypte it, second user shall enter the key, and see the decrypted message as an output.
 
 
-### 3. Workflow - TODO
-Outline the workflow you used in your project. What are the steps you went through?
+### 3. Workflow & Organization
+About the form:
+First target was to come with the project and its architecture from project's board, to coding game and slides.
+Then we had to begin to implement functions, to see we were making it (too) simple. After some iterations we find a good way to go further, helping each others, sharing the work and switching tasks when we were stuck/needed. 
 
+About the content:
+We both brainstormed using Trello.
+We agreed onto a conceptual architecture (cf pseudocode).
+We wrote down the code using differents draft files, then merged everything into one main python file.
 
-### 4. Organization -TODO
-How did you organize your work? Did you use any tools like a kanban board?
+About the repository:
+    * .readme -> all information about the project
+    * .gitignore -> safeguard to prevent us from pushing any file or extension indicated
+    * pseudocode.py -> main architecture of what the code should looks like
+    * secret.key -> to store securate automatically generated key
+    * main.py -> all python code, aka the game
+    * msg.csv -> store timestamp, message, encrypted_message and key
+    
 
-What does your repository look like? Explain your folder and file structure.
 
